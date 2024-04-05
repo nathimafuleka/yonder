@@ -9,17 +9,17 @@
     });
     // Responsive menu
 
-    // let scrollLink = $(".nav-link");
+    let scrollLink = $(".nav-link");
 
-    // $(scrollLink).on("click", function (event) {
-    //     event.preventDefault();
-    //     $("html,body").animate(
-    //         {
-    //         scrollTop: $(this.hash).offset().top,
-    //         },
-    //         300
-    //     );
-    // });
+    $(scrollLink).on("click", function (event) {
+        event.preventDefault();
+        $("html,body").animate(
+            {
+            scrollTop: $(this.hash).offset().top,
+            },
+            300
+        );
+    });
     // Navbar scroll spay
 
     let planet1 = document.querySelector('.heroarea .planet-1');
