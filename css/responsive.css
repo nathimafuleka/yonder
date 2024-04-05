@@ -885,6 +885,7 @@
     }
 
     .videoarea{
-        height: auto;
+        height: 210px;
+        margin-top: 6rem;
     }
 }
