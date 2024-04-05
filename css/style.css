@@ -965,9 +965,9 @@ body {
 .videoarea{
     position: relative;
     max-width: 100%;
-    top: 0;
+    top: 80px;
     left: 0;
-    height: 20rem;
+    height: 25rem;
     margin-bottom: 46.5rem;
 }
 
