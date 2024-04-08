@@ -50,7 +50,7 @@
     let words = [
         ' DIGITAL',
         ' MARKETING',
-        ' TECHN',
+        ' TECH',
         ' RETAIL',
         ' PROMOTIONAL'
         ], i = 0;
