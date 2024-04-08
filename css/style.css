@@ -76,6 +76,9 @@ body {
 /**
 *   Common CSS End
 **/
+.logo{
+    width: 150px;
+}
 
 .main-header {
     position: absolute;
