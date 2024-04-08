@@ -50,9 +50,9 @@
     let words = [
         ' DIGITAL',
         ' MARKETING',
-        ' TECHNOLOGY',
+        ' TECHN',
         ' RETAIL',
-        ' PROMO'
+        ' PROMOTIONAL'
         ], i = 0;
     setInterval(function(){
         $('#changing-word').fadeOut(function(){
