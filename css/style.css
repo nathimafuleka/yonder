@@ -72,6 +72,8 @@ body {
     font-size: var(--bs);
     font-weight: 400;
     font-family: var(--font-montserrat);
+    max-width: 1920px; 
+    margin: 0 auto; 
 }
 /**
 *   Common CSS End
