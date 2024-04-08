@@ -1129,3 +1129,37 @@ body {
 .gradient5 {
     background: linear-gradient(90deg, rgba(53, 21, 52, 1) 0%, rgba(180, 190, 212, 1) 100%);
 }
+
+.project-details-infomation{
+    margin-top: 30px;
+}
+
+.project-video{
+    margin-top: 100px;
+    background-color: var(--black_color);
+}
+
+.project-header{
+    font-family: var(--font-khand);
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.content-container {
+    max-width: 90%; 
+}
+
+.content-container h2{
+    font-family: var(--font-khand);
+    font-weight: bold;
+}
