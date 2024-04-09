@@ -137,6 +137,7 @@
     .expend-service-content .qr-code img {
         width: 100px;
         padding: 8px;
+        display: none
     }
 
     .insights-cards {
@@ -412,6 +413,28 @@
         padding: 6px 20px;
         font-size: 16px;
         font-weight: 500;
+    }
+
+        .expend-service-content .Stoffel-btn {
+        position: relative;
+        margin: 15px;
+        padding: 8px 40px;
+        font-family: var(--font-khand);
+        color: var(--white_color);
+        font-size: 24px;
+        line-height: 1;
+        border: 2px solid var(--white_color);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+        -ms-transition: var(--transition);
+        -o-transition: var(--transition);
+        background-color: transparent;
     }
 }
 
