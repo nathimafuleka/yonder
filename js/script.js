@@ -81,9 +81,5 @@
     // });
     
     // prevent auto play video when coming from other page
-    $(document).ready(function() {
-        var videoFrame = $('.iframe-video');
-        // Pause the video
-        videoFrame[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-    });
+
 }(jQuery));
