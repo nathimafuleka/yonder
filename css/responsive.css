@@ -137,7 +137,7 @@
     .expend-service-content .qr-code img {
         width: 100px;
         padding: 8px;
-        display: none
+        display: none;
     }
 
     .insights-cards {
