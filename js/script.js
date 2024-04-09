@@ -80,5 +80,11 @@
 
     // });
     
-
+    // prevent auto play video when coming from other page
+    window.addEventListener('load', function() {
+        if (document.referrer !== '') {
+            var iframe = document.querySelector('.iframe-video');
+            iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+    });
 }(jQuery));
