@@ -141,7 +141,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <iframe class="w-100 iframe-video" src="video/We Are YONDER.mp4?autoplay=false&random=<%= DateTime.Now.Ticks %>" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                        <iframe id="videoFrame class="w-100 iframe-video" src="video/We Are YONDER.mp4?autoplay=false&random=<%= DateTime.Now.Ticks %>" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -836,6 +836,19 @@ Developed with mass reach in mind, fuel your next direct campaign with media tha
             $(".expend-service").hide();
             $(".service-card").show();
         });
+
+   $(document).ready(function() {
+        // Function to check if the page is loaded from another link
+        function isLoadedFromLink() {
+            return document.referrer !== '' && !document.referrer.includes(window.location.hostname);
+        }
+
+        // Check if the page is loaded from another link
+        if (isLoadedFromLink()) {
+            // Get the iframe element and remove the autoplay attribute
+            $('#videoFrame').removeAttr('autoplay');
+        }
+    });
     </script>
     <!-- Service Card Expend JS -->
 
