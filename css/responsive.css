@@ -417,6 +417,7 @@
 
         .expend-service-content .Stoffel-btn {
         position: relative;
+        display: block;
         margin: 15px;
         padding: 8px 40px;
         font-family: var(--font-khand);
@@ -875,6 +876,7 @@
     .expend-service-content .qr-code img {
         width: 100px;
         padding: 8px;
+        display: none;
     }
 
     .service-card .card-footer img {
