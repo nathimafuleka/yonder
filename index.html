@@ -844,6 +844,9 @@ Developed with mass reach in mind, fuel your next direct campaign with media tha
             return document.referrer !== '' && !document.referrer.includes(window.location.hostname);
         }
 
+        // Log the result of isLoadedFromLink() to the console
+        console.log("Loaded from link:", isLoadedFromLink());
+
         // Check if the page is loaded from another link
         if (isLoadedFromLink()) {
             // Get the iframe element and remove the autoplay attribute
