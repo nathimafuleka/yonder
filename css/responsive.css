@@ -950,8 +950,15 @@
         margin-top: -11px;
     }
 
-
     .heroarea .bottom-text{
         bottom: 20px;
+    }
+
+    .contact-links{
+        margin-top: 20px;
+    }
+
+    .footer-content .contact-links img{
+        display: none;
     }
 }
