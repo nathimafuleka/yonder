@@ -949,4 +949,9 @@
         height: 240px;
         margin-top: -11px;
     }
+
+
+    .heroarea .bottom-text{
+        bottom: 20px;
+    }
 }
